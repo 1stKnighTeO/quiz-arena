@@ -1,0 +1,704 @@
+[
+  {
+    "question": "Which Claude Code tool is best for finding a file by name pattern?",
+    "options": ["Grep", "Glob", "Read", "Bash"],
+    "correct": 1,
+    "category": "Claude Code"
+  },
+  {
+    "question": "In Claude Code, which tool should you use to search file contents by regex?",
+    "options": ["Glob", "Read", "Grep", "WebSearch"],
+    "correct": 2,
+    "category": "Claude Code"
+  },
+  {
+    "question": "What does CLAUDE.md do in a project?",
+    "options": [
+      "Stores git history",
+      "Provides project instructions to Claude",
+      "Configures npm scripts",
+      "Defines ESLint rules"
+    ],
+    "correct": 1,
+    "category": "Claude Code"
+  },
+  {
+    "question": "Which Claude Code hook event fires after a tool successfully runs?",
+    "options": ["PreToolUse", "PostToolUse", "Stop", "SessionStart"],
+    "correct": 1,
+    "category": "Claude Code"
+  },
+  {
+    "question": "Where does Claude Code store project-level settings that should be committed?",
+    "options": [
+      "~/.claude/settings.json",
+      ".claude/settings.local.json",
+      ".claude/settings.json",
+      "package.json"
+    ],
+    "correct": 2,
+    "category": "Claude Code"
+  },
+  {
+    "question": "What does the Claude Code `Stop` hook event do?",
+    "options": [
+      "Stops Claude mid-response",
+      "Runs when Claude finishes responding",
+      "Kills the terminal session",
+      "Cancels the current tool call"
+    ],
+    "correct": 1,
+    "category": "Claude Code"
+  },
+  {
+    "question": "Which file is gitignored by convention for personal Claude Code overrides?",
+    "options": [
+      "CLAUDE.md",
+      ".claude/settings.json",
+      ".claude/settings.local.json",
+      "~/.claude/settings.json"
+    ],
+    "correct": 2,
+    "category": "Claude Code"
+  },
+  {
+    "question": "In Claude Code, what does a PreToolUse hook allow you to do?",
+    "options": [
+      "Run code after the tool completes",
+      "Block or modify a tool call before it runs",
+      "Log tool output to a file",
+      "Schedule recurring tasks"
+    ],
+    "correct": 1,
+    "category": "Claude Code"
+  },
+  {
+    "question": "What is the purpose of the `matcher` field in a Claude Code hook?",
+    "options": [
+      "Matches file extensions to format",
+      "Filters which tool names trigger the hook",
+      "Matches regex in file content",
+      "Specifies the shell interpreter"
+    ],
+    "correct": 1,
+    "category": "Claude Code"
+  },
+  {
+    "question": "Which Claude Code tool reads a file from the filesystem?",
+    "options": ["Fetch", "Load", "Read", "Get"],
+    "correct": 2,
+    "category": "Claude Code"
+  },
+  {
+    "question": "What does the `Write` tool do in Claude Code?",
+    "options": [
+      "Appends text to a file",
+      "Creates or overwrites a file",
+      "Writes to stdout",
+      "Sends a network request"
+    ],
+    "correct": 1,
+    "category": "Claude Code"
+  },
+  {
+    "question": "Which Claude Code tool makes targeted string replacements in a file?",
+    "options": ["Write", "Patch", "Edit", "Replace"],
+    "correct": 2,
+    "category": "Claude Code"
+  },
+  {
+    "question": "What does `jq -r '.tool_input.file_path'` do in a hook command?",
+    "options": [
+      "Reads a file at the given path",
+      "Extracts the file_path string from the hook's stdin JSON",
+      "Lists files in a directory",
+      "Validates JSON syntax"
+    ],
+    "correct": 1,
+    "category": "Claude Code"
+  },
+  {
+    "question": "Which Claude Code hook event is best for running tests after every response?",
+    "options": ["PreToolUse", "PostToolUse", "Stop", "SessionStart"],
+    "correct": 2,
+    "category": "Claude Code"
+  },
+  {
+    "question": "What is a subagent in Claude Code?",
+    "options": [
+      "A background process that monitors files",
+      "A specialized agent launched with the Agent tool",
+      "A Claude API endpoint",
+      "A hook that runs in parallel"
+    ],
+    "correct": 1,
+    "category": "Claude Code"
+  },
+  {
+    "question": "Which settings scope takes highest priority in Claude Code?",
+    "options": [
+      "~/.claude/settings.json (user)",
+      ".claude/settings.json (project)",
+      ".claude/settings.local.json (local)",
+      "All are equal"
+    ],
+    "correct": 2,
+    "category": "Claude Code"
+  },
+  {
+    "question": "What does `Bash(npm:*)` mean in a Claude Code permission rule?",
+    "options": [
+      "Deny all npm commands",
+      "Allow any bash command starting with npm",
+      "Install npm globally",
+      "Run npm in a sandbox"
+    ],
+    "correct": 1,
+    "category": "Claude Code"
+  },
+  {
+    "question": "In Claude Code, what does the `WebFetch` tool do?",
+    "options": [
+      "Searches the web for answers",
+      "Fetches the content of a URL",
+      "Downloads npm packages",
+      "Sends a POST request"
+    ],
+    "correct": 1,
+    "category": "Claude Code"
+  },
+  {
+    "question": "What is the recommended way to search code within 2-3 known files in Claude Code?",
+    "options": [
+      "Launch an Explore subagent",
+      "Use the Grep tool directly",
+      "Use the Bash tool with rg",
+      "Use the WebSearch tool"
+    ],
+    "correct": 1,
+    "category": "Claude Code"
+  },
+  {
+    "question": "Which Claude Code hook type uses an LLM to evaluate a condition?",
+    "options": ["command", "prompt", "agent", "http"],
+    "correct": 1,
+    "category": "Claude Code"
+  },
+  {
+    "question": "What does `statusMessage` do in a Claude Code hook?",
+    "options": [
+      "Sets the HTTP status code",
+      "Shows a message in the spinner while the hook runs",
+      "Sends a system notification",
+      "Logs to the console"
+    ],
+    "correct": 1,
+    "category": "Claude Code"
+  },
+  {
+    "question": "What HTTP method is typically used to partially update a resource?",
+    "options": ["PUT", "POST", "PATCH", "UPDATE"],
+    "correct": 2,
+    "category": "Web Dev"
+  },
+  {
+    "question": "Which HTTP status code means \"resource not found\"?",
+    "options": ["401", "403", "500", "404"],
+    "correct": 3,
+    "category": "Web Dev"
+  },
+  {
+    "question": "In Express.js, what does `express.static()` do?",
+    "options": [
+      "Compiles TypeScript files",
+      "Serves static files from a directory",
+      "Sets response headers",
+      "Validates request bodies"
+    ],
+    "correct": 1,
+    "category": "Web Dev"
+  },
+  {
+    "question": "What data structure does localStorage use to store values?",
+    "options": ["JSON objects", "Binary blobs", "Key-value string pairs", "SQL tables"],
+    "correct": 2,
+    "category": "Web Dev"
+  },
+  {
+    "question": "What does CSS `position: sticky` do?",
+    "options": [
+      "Fixes element relative to viewport always",
+      "Positions element relative to nearest ancestor",
+      "Sticks element when scrolled past a threshold",
+      "Removes element from normal flow"
+    ],
+    "correct": 2,
+    "category": "Web Dev"
+  },
+  {
+    "question": "Which HTTP status code means \"Unauthorized\"?",
+    "options": ["400", "401", "403", "404"],
+    "correct": 1,
+    "category": "Web Dev"
+  },
+  {
+    "question": "What does CORS stand for?",
+    "options": [
+      "Cross-Origin Resource Sharing",
+      "Client-Origin Request System",
+      "Cross-Object Rendering Service",
+      "Content-Origin Response Standard"
+    ],
+    "correct": 0,
+    "category": "Web Dev"
+  },
+  {
+    "question": "Which CSS unit is relative to the font size of the root element?",
+    "options": ["em", "rem", "vh", "px"],
+    "correct": 1,
+    "category": "Web Dev"
+  },
+  {
+    "question": "What does the `defer` attribute on a `<script>` tag do?",
+    "options": [
+      "Loads the script synchronously",
+      "Executes the script after HTML parsing completes",
+      "Prevents the script from running",
+      "Loads the script from a CDN"
+    ],
+    "correct": 1,
+    "category": "Web Dev"
+  },
+  {
+    "question": "Which HTTP header prevents clickjacking attacks?",
+    "options": [
+      "Content-Security-Policy",
+      "X-Frame-Options",
+      "Strict-Transport-Security",
+      "X-Content-Type-Options"
+    ],
+    "correct": 1,
+    "category": "Web Dev"
+  },
+  {
+    "question": "What is the default `display` value of a `<div>` element?",
+    "options": ["inline", "inline-block", "block", "flex"],
+    "correct": 2,
+    "category": "Web Dev"
+  },
+  {
+    "question": "Which CSS property controls the stacking order of elements?",
+    "options": ["stack-order", "z-index", "layer", "depth"],
+    "correct": 1,
+    "category": "Web Dev"
+  },
+  {
+    "question": "What does a 301 HTTP status code indicate?",
+    "options": [
+      "Resource created",
+      "Permanent redirect",
+      "Temporary redirect",
+      "Not modified"
+    ],
+    "correct": 1,
+    "category": "Web Dev"
+  },
+  {
+    "question": "Which HTML element is used to define a semantic navigation section?",
+    "options": ["<section>", "<div>", "<nav>", "<aside>"],
+    "correct": 2,
+    "category": "Web Dev"
+  },
+  {
+    "question": "What does `box-sizing: border-box` change?",
+    "options": [
+      "Adds a border to all elements",
+      "Includes padding and border in element's total width/height",
+      "Removes the default margin",
+      "Sets the box shadow"
+    ],
+    "correct": 1,
+    "category": "Web Dev"
+  },
+  {
+    "question": "Which method is used to send data to a server using the Fetch API?",
+    "options": [
+      "fetch(url, { type: 'POST' })",
+      "fetch(url, { method: 'POST', body: data })",
+      "fetch.post(url, data)",
+      "fetch(url).post(data)"
+    ],
+    "correct": 1,
+    "category": "Web Dev"
+  },
+  {
+    "question": "What is the purpose of a CSS media query?",
+    "options": [
+      "Load different stylesheets from a CDN",
+      "Apply styles based on device characteristics",
+      "Query a database for styles",
+      "Embed media files in CSS"
+    ],
+    "correct": 1,
+    "category": "Web Dev"
+  },
+  {
+    "question": "Which HTTP status code means the server understood the request but refuses to fulfill it?",
+    "options": ["401", "403", "404", "405"],
+    "correct": 1,
+    "category": "Web Dev"
+  },
+  {
+    "question": "What does `localStorage.setItem('key', value)` require `value` to be?",
+    "options": ["An object", "A number", "A string", "A boolean"],
+    "correct": 2,
+    "category": "Web Dev"
+  },
+  {
+    "question": "Which CSS flexbox property aligns items along the cross axis?",
+    "options": ["justify-content", "align-items", "flex-direction", "flex-wrap"],
+    "correct": 1,
+    "category": "Web Dev"
+  },
+  {
+    "question": "What does `===` check in JavaScript that `==` does not?",
+    "options": [
+      "Value equality",
+      "Reference equality",
+      "Type and value equality",
+      "Prototype chain"
+    ],
+    "correct": 2,
+    "category": "JavaScript"
+  },
+  {
+    "question": "Which array method returns a new array without modifying the original?",
+    "options": ["push()", "splice()", "map()", "sort()"],
+    "correct": 2,
+    "category": "JavaScript"
+  },
+  {
+    "question": "What does `JSON.parse()` return when given the string \"true\"?",
+    "options": ["\"true\"", "true", "1", "null"],
+    "correct": 1,
+    "category": "JavaScript"
+  },
+  {
+    "question": "What does the `typeof null` expression return in JavaScript?",
+    "options": ["\"null\"", "\"undefined\"", "\"object\"", "\"boolean\""],
+    "correct": 2,
+    "category": "JavaScript"
+  },
+  {
+    "question": "Which method removes and returns the last element of an array?",
+    "options": ["shift()", "unshift()", "pop()", "splice()"],
+    "correct": 2,
+    "category": "JavaScript"
+  },
+  {
+    "question": "What does `Array.from({length: 3}, (_, i) => i)` return?",
+    "options": ["[1, 2, 3]", "[0, 1, 2]", "[undefined, undefined, undefined]", "[3, 3, 3]"],
+    "correct": 1,
+    "category": "JavaScript"
+  },
+  {
+    "question": "What is the result of `0.1 + 0.2 === 0.3` in JavaScript?",
+    "options": ["true", "false", "undefined", "NaN"],
+    "correct": 1,
+    "category": "JavaScript"
+  },
+  {
+    "question": "Which keyword declares a block-scoped variable in JavaScript?",
+    "options": ["var", "let", "def", "local"],
+    "correct": 1,
+    "category": "JavaScript"
+  },
+  {
+    "question": "What does the spread operator `...` do when used with an array?",
+    "options": [
+      "Creates a reference to the array",
+      "Expands the array into individual elements",
+      "Flattens nested arrays",
+      "Sorts the array"
+    ],
+    "correct": 1,
+    "category": "JavaScript"
+  },
+  {
+    "question": "What does `Promise.all([p1, p2])` do if `p2` rejects?",
+    "options": [
+      "Returns p1's result only",
+      "Waits for p1 to settle first",
+      "Rejects immediately with p2's error",
+      "Returns undefined"
+    ],
+    "correct": 2,
+    "category": "JavaScript"
+  },
+  {
+    "question": "Which method checks if at least one element in an array passes a test?",
+    "options": ["every()", "find()", "some()", "includes()"],
+    "correct": 2,
+    "category": "JavaScript"
+  },
+  {
+    "question": "What is a closure in JavaScript?",
+    "options": [
+      "A way to close a browser tab",
+      "A function that retains access to its outer scope variables",
+      "A method that terminates a loop",
+      "An error handling block"
+    ],
+    "correct": 1,
+    "category": "JavaScript"
+  },
+  {
+    "question": "What does `event.preventDefault()` do?",
+    "options": [
+      "Stops event bubbling",
+      "Prevents the default browser behavior for the event",
+      "Removes the event listener",
+      "Cancels all pending events"
+    ],
+    "correct": 1,
+    "category": "JavaScript"
+  },
+  {
+    "question": "Which method converts an object's keys into an array?",
+    "options": ["Object.values()", "Object.keys()", "Object.entries()", "Object.assign()"],
+    "correct": 1,
+    "category": "JavaScript"
+  },
+  {
+    "question": "What does `requestAnimationFrame` do?",
+    "options": [
+      "Delays a function by 16ms",
+      "Calls a function before the next browser repaint",
+      "Runs a function every second",
+      "Pauses JavaScript execution"
+    ],
+    "correct": 1,
+    "category": "JavaScript"
+  },
+  {
+    "question": "What is the value of `this` inside an arrow function?",
+    "options": [
+      "The arrow function itself",
+      "window always",
+      "Inherited from the enclosing lexical scope",
+      "undefined always"
+    ],
+    "correct": 2,
+    "category": "JavaScript"
+  },
+  {
+    "question": "Which array method accumulates values into a single result?",
+    "options": ["map()", "filter()", "reduce()", "flat()"],
+    "correct": 2,
+    "category": "JavaScript"
+  },
+  {
+    "question": "What does `structuredClone(obj)` do?",
+    "options": [
+      "Creates a shallow copy of obj",
+      "Creates a deep clone of obj",
+      "Freezes obj so it cannot be modified",
+      "Converts obj to JSON"
+    ],
+    "correct": 1,
+    "category": "JavaScript"
+  },
+  {
+    "question": "What is the output of `[1, 2, 3].indexOf(4)`?",
+    "options": ["0", "3", "-1", "null"],
+    "correct": 2,
+    "category": "JavaScript"
+  },
+  {
+    "question": "Which statement correctly imports a default export named `App`?",
+    "options": [
+      "import { App } from './App'",
+      "import App from './App'",
+      "import * from './App'",
+      "require('./App').App"
+    ],
+    "correct": 1,
+    "category": "JavaScript"
+  },
+  {
+    "question": "What does `Number.isNaN(NaN)` return?",
+    "options": ["false", "true", "undefined", "0"],
+    "correct": 1,
+    "category": "JavaScript"
+  },
+  {
+    "question": "Which sorting algorithm has average O(n log n) time complexity?",
+    "options": ["Bubble sort", "Insertion sort", "Quick sort", "Selection sort"],
+    "correct": 2,
+    "category": "CS Trivia"
+  },
+  {
+    "question": "What data structure uses LIFO (Last In, First Out) ordering?",
+    "options": ["Queue", "Stack", "Linked list", "Heap"],
+    "correct": 1,
+    "category": "CS Trivia"
+  },
+  {
+    "question": "What is the time complexity of binary search on a sorted array?",
+    "options": ["O(n)", "O(n²)", "O(log n)", "O(1)"],
+    "correct": 2,
+    "category": "CS Trivia"
+  },
+  {
+    "question": "Which data structure is used to implement BFS (Breadth-First Search)?",
+    "options": ["Stack", "Queue", "Heap", "Tree"],
+    "correct": 1,
+    "category": "CS Trivia"
+  },
+  {
+    "question": "What does RAM stand for?",
+    "options": [
+      "Read Access Memory",
+      "Random Access Memory",
+      "Rapid Application Module",
+      "Runtime Allocation Memory"
+    ],
+    "correct": 1,
+    "category": "CS Trivia"
+  },
+  {
+    "question": "What is a hash collision?",
+    "options": [
+      "When two files have the same name",
+      "When two different keys produce the same hash value",
+      "When a hash function crashes",
+      "When memory runs out during hashing"
+    ],
+    "correct": 1,
+    "category": "CS Trivia"
+  },
+  {
+    "question": "What is the worst-case time complexity of quicksort?",
+    "options": ["O(n log n)", "O(n)", "O(n²)", "O(log n)"],
+    "correct": 2,
+    "category": "CS Trivia"
+  },
+  {
+    "question": "What does DRY stand for in software development?",
+    "options": [
+      "Don't Repeat Yourself",
+      "Define Reusable Yesterday",
+      "Dynamic Runtime Yield",
+      "Direct Reference Yield"
+    ],
+    "correct": 0,
+    "category": "CS Trivia"
+  },
+  {
+    "question": "Which number system uses base 16?",
+    "options": ["Binary", "Octal", "Decimal", "Hexadecimal"],
+    "correct": 3,
+    "category": "CS Trivia"
+  },
+  {
+    "question": "What is a race condition?",
+    "options": [
+      "A performance benchmark test",
+      "A bug where behavior depends on the timing of events",
+      "A type of sorting algorithm",
+      "A network latency issue"
+    ],
+    "correct": 1,
+    "category": "CS Trivia"
+  },
+  {
+    "question": "What does TCP stand for?",
+    "options": [
+      "Transfer Control Protocol",
+      "Transmission Control Protocol",
+      "Timed Connection Protocol",
+      "Transport Channel Protocol"
+    ],
+    "correct": 1,
+    "category": "CS Trivia"
+  },
+  {
+    "question": "What is the space complexity of storing n elements in an array?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+    "correct": 2,
+    "category": "CS Trivia"
+  },
+  {
+    "question": "Which design pattern ensures a class has only one instance?",
+    "options": ["Factory", "Observer", "Singleton", "Decorator"],
+    "correct": 2,
+    "category": "CS Trivia"
+  },
+  {
+    "question": "What is a deadlock in computing?",
+    "options": [
+      "A program that runs too slowly",
+      "Two or more processes waiting on each other indefinitely",
+      "A corrupted file that cannot be opened",
+      "A network timeout"
+    ],
+    "correct": 1,
+    "category": "CS Trivia"
+  },
+  {
+    "question": "What does UTF-8 stand for?",
+    "options": [
+      "Universal Text Format 8-bit",
+      "Unicode Transformation Format 8-bit",
+      "Unified Transfer File 8-bit",
+      "Universal Transfer Format 8-byte"
+    ],
+    "correct": 1,
+    "category": "CS Trivia"
+  },
+  {
+    "question": "Which of these is NOT a primitive data type in most languages?",
+    "options": ["Integer", "Boolean", "String", "Array"],
+    "correct": 3,
+    "category": "CS Trivia"
+  },
+  {
+    "question": "What is the purpose of a mutex?",
+    "options": [
+      "To increase CPU performance",
+      "To prevent concurrent access to a shared resource",
+      "To allocate memory dynamically",
+      "To compress data"
+    ],
+    "correct": 1,
+    "category": "CS Trivia"
+  },
+  {
+    "question": "What does an IP address identify?",
+    "options": [
+      "A website's content",
+      "A device on a network",
+      "A user's identity",
+      "A file's location on disk"
+    ],
+    "correct": 1,
+    "category": "CS Trivia"
+  },
+  {
+    "question": "Which data structure has O(1) average time complexity for insertions and lookups?",
+    "options": ["Array", "Linked list", "Hash table", "Binary search tree"],
+    "correct": 2,
+    "category": "CS Trivia"
+  },
+  {
+    "question": "What does the term 'refactoring' mean?",
+    "options": [
+      "Adding new features to code",
+      "Rewriting code in a different language",
+      "Restructuring existing code without changing its behavior",
+      "Fixing bugs in production"
+    ],
+    "correct": 2,
+    "category": "CS Trivia"
+  }
+]

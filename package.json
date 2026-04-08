@@ -1,0 +1,10 @@
+{
+  "name": "quiz-arena",
+  "version": "1.0.0",
+  "description": "Vanilla JS quiz app with timer, streak bonuses, and leaderboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/run.js"
+  }
+}
