@@ -48,12 +48,23 @@ npm start      # http://localhost:3000
 
 ## Verification
 
+### Automated tests
+
+```
+npm test
+```
+
+Covers: scoring logic, streak multipliers, shuffle (no mutation), `escHtml` sanitization, leaderboard sort/cap/fallback, and `questions.json` schema validation.
+
+### Manual checks (browser-only)
+
 Open browser devtools Console — zero errors expected.
 
 1. Timer counts down from 15, turns red at ≤5s, auto-skips on 0
 2. 3 correct in a row → "×2 STREAK!" badge; 5 in a row → "×3 STREAK!"
 3. Progress bar fills each question, reaches 100% on results screen
 4. Results show correct score / accuracy % / elapsed time
-5. Save score → entry appears in leaderboard table sorted by score desc
-6. Reload page → leaderboard persists from localStorage
-7. Responsive at mobile widths (< 480px): answers stack to 1 column
+5. Confetti fires on correct answer
+6. Save score → entry appears in leaderboard table sorted by score desc
+7. Reload page → leaderboard persists from localStorage
+8. Responsive at mobile widths (< 480px): answers stack to 1 column
